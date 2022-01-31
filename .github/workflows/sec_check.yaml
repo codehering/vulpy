@@ -23,7 +23,7 @@ jobs:
           # Your ML workflow goes here
           pip install -r requirements.txt
           python bad/vulpy.py
-       - name: test connection
-         run: ping http://127.0.1.1:5000 >report.md
-       - name: publish report
-         run: cml-send-comment report.md
+      - name: test connection
+        run: ping http://127.0.1.1:5000 >report.md
+      - name: publish report
+        run: cml-send-comment report.md
