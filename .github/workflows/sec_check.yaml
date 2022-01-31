@@ -41,6 +41,7 @@ jobs:
       env:
         REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
+        sleep(60)
         ping http://127.0.1.1:5000 >report.md
         cml-send-comment report.md
 
