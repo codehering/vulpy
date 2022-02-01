@@ -42,6 +42,6 @@ jobs:
         REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         sleep 300
-        curl http://10.1.0.18:5000 > report.md
+        curl http://localhost:5000/posts > report.md
         cml-send-comment report.md
 
