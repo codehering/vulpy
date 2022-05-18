@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'vulpy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C16AFC5BDDEE4C77A7CDEC40307BC179 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7770CE866F994A88AD0632B8284AD37C }}
